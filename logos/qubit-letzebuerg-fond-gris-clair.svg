@@ -1,0 +1,43 @@
+<!-- QUBiT LëTZEBUERG — italique, fond gris clair, dégradé R→W→B, bord noir fin -->
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="120" viewBox="0 0 660 120" role="img" aria-labelledby="title desc">
+  <title id="title">QUBiT LëTZEBUERG — logo fond gris clair</title>
+  <desc id="desc">Logo italique avec texte en dégradé rouge-blanc-bleu et contour noir fin, sur fond gris clair élégant.</desc>
+
+  <defs>
+    <!-- Dégradé horizontal (rouge → blanc → bleu) -->
+    <linearGradient id="lux-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#EF3340"/>  <!-- rouge -->
+      <stop offset="50%"  stop-color="#FFFFFF"/>  <!-- blanc -->
+      <stop offset="100%" stop-color="#00A3E0"/>  <!-- bleu -->
+    </linearGradient>
+
+    <style>
+      .bg { fill:#E0E0E0; } /* fond gris clair */
+      .text-base {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        letter-spacing: 1.5px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        font-style: italic;
+      }
+      .text-stroke {
+        fill: none;
+        stroke: #000000;       /* contour noir */
+        stroke-width: 1.4;     /* fin mais net */
+        stroke-linejoin: round;
+      }
+      .text-fill {
+        fill: url(#lux-gradient); /* remplissage dégradé */
+      }
+    </style>
+  </defs>
+
+  <!-- Fond gris clair -->
+  <rect class="bg" x="0" y="0" width="660" height="120" rx="16" ry="16"/>
+
+  <!-- Texte centré -->
+  <text x="330" y="64" class="text-base text-stroke">QUBiT LëTZEBUERG</text>
+  <text x="330" y="64" class="text-base text-fill">QUBiT LëTZEBUERG</text>
+</svg>

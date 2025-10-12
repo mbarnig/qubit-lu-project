@@ -1,0 +1,44 @@
+<!-- web3.lu — Logo texte italique (Outfit, proportions 0–43 / 43–61 / 61–100) -->
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">web3.lu — logo texte final (Outfit italique, aligné au 3)</title>
+  <desc id="desc">Logo texte "web3.lu" en italique, police Outfit, bandes rouge-blanc-bleu alignées sur les bords du chiffre 3, fond noir arrondi</desc>
+
+  <defs>
+    <!-- Dégradé du drapeau luxembourgeois ajusté -->
+    <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
+      <!-- Rouge -->
+      <stop offset="0%"  stop-color="#EF3340"/>
+      <stop offset="43%" stop-color="#EF3340"/>
+      <!-- Blanc -->
+      <stop offset="43%" stop-color="#FFFFFF"/>
+      <stop offset="61%" stop-color="#FFFFFF"/>
+      <!-- Bleu -->
+      <stop offset="61%" stop-color="#00A3E0"/>
+      <stop offset="100%" stop-color="#00A3E0"/>
+    </linearGradient>
+
+    <!-- Police Outfit -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+      .card { fill: #0B0C10; }
+      .label {
+        font-family: "Outfit", sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        transform: skewX(-10deg); /* effet italique dynamique */
+        transform-origin: left center;
+      }
+    </style>
+  </defs>
+
+  <!-- Fond noir arrondi -->
+  <rect x="0" y="0" width="320" height="120" rx="20" class="card"/>
+
+  <!-- Texte principal -->
+  <g transform="translate(32, 78)">
+    <text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
+  </g>
+
+  <!-- Barre bleue décorative (optionnelle) -->
+  <rect x="32" y="92" width="110" height="6" rx="3" fill="#00A3E0" opacity="0.65"/>
+</svg>

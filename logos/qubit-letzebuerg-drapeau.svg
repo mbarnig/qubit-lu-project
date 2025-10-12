@@ -1,0 +1,33 @@
+<!-- QUBiT LëTZEBUERG — logo centré, dégradé luxembourgeois, fond noir -->
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="180" viewBox="0 0 820 180" role="img" aria-labelledby="title desc">
+  <title id="title">QUBiT LëTZEBUERG — logo avec dégradé luxembourgeois</title>
+  <desc id="desc">Logo centré, fond noir, texte avec dégradé horizontal rouge-blanc-bleu inspiré du drapeau luxembourgeois.</desc>
+
+  <defs>
+    <!-- Dégradé horizontal luxembourgeois -->
+    <linearGradient id="lux-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#EF3340"/>  <!-- rouge -->
+      <stop offset="50%"  stop-color="#FFFFFF"/>  <!-- blanc -->
+      <stop offset="100%" stop-color="#00A3E0"/>  <!-- bleu -->
+    </linearGradient>
+
+    <style>
+      .bg { fill:#000000; }
+      .fg {
+        fill:url(#lux-gradient);
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 68px;
+        letter-spacing: 2px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- Fond noir -->
+  <rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+  <!-- Texte centré avec dégradé -->
+  <text class="fg" x="410" y="90">QUBiT LëTZEBUERG</text>
+</svg>

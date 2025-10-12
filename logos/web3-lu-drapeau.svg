@@ -1,0 +1,51 @@
+<!-- web3.lu — Logo texte final (0–45 / 45–64 / 64–100) -->
+<svg width="300" height="120" viewBox="0 0 300 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">web3.lu — logo texte final</title>
+  <desc id="desc">Mot-symbole "web3.lu" avec rouge 0–45%, blanc 45–64%, bleu 64–100% sur fond noir arrondi</desc>
+
+  <defs>
+    <!-- Dégradé du drapeau luxembourgeois (ajusté finement) -->
+    <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
+      <!-- Rouge -->
+      <stop offset="0%"  stop-color="#EF3340"/>
+      <stop offset="45%" stop-color="#EF3340"/>
+      <!-- Blanc -->
+      <stop offset="45%" stop-color="#FFFFFF"/>
+      <stop offset="64%" stop-color="#FFFFFF"/>
+      <!-- Bleu -->
+      <stop offset="64%" stop-color="#00A3E0"/>
+      <stop offset="100%" stop-color="#00A3E0"/>
+    </linearGradient>
+
+    <!-- Légère douceur interne -->
+    <filter id="soft-inner" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .card { fill: #0B0C10; }
+      .label {
+        font-family: "Poppins", "Inter", "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        letter-spacing: 0.4px;
+      }
+    </style>
+  </defs>
+
+  <!-- Fond noir arrondi -->
+  <rect x="0" y="0" width="300" height="120" rx="20" class="card"/>
+
+  <!-- Texte principal -->
+  <g transform="translate(24, 78)" filter="url(#soft-inner)">
+    <text x="0" y="0" class="label" font-size="64" fill="none" stroke="rgba(255,255,255,0.18)" stroke-width="2">web3.lu</text>
+    <text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
+  </g>
+
+  <!-- Barre bleue décorative (optionnelle) -->
+  <rect x="24" y="92" width="110" height="6" rx="3" fill="#00A3E0" opacity="0.65"/>
+</svg>
+

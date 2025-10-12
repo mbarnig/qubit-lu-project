@@ -1,0 +1,45 @@
+<!-- QUBiT LëTZEBUERG — italique, dégradé R→W→B, bord noir très fin (double couche) -->
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="120" viewBox="0 0 660 120" role="img" aria-labelledby="title desc">
+  <title id="title">QUBiT LëTZEBUERG — dégradé rempli + bord fin</title>
+  <desc id="desc">Deux couches de texte : bord noir fin dessous, remplissage dégradé au-dessus, sur fond gris moyen.</desc>
+
+  <defs>
+    <!-- Dégradé horizontal (rouge → blanc → bleu) -->
+    <linearGradient id="lux-gradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#EF3340"/>
+      <stop offset="50%"  stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#00A3E0"/>
+    </linearGradient>
+
+    <style>
+      .bg { fill:#8C8C8C; } /* gris moyen (ajuste si besoin) */
+      .text-base {
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 60px;
+        letter-spacing: 1.5px;
+        text-anchor: middle;
+        dominant-baseline: middle;
+        font-style: italic;
+      }
+      /* Couche bord (dessous) */
+      .text-stroke {
+        fill: none;            /* pas de remplissage ici */
+        stroke: #000000;       /* bord noir */
+        stroke-width: 1.6;     /* très fin ; moitié restera visible à l'extérieur */
+        stroke-linejoin: round;/* coins doux */
+      }
+      /* Couche remplissage (dessus) */
+      .text-fill {
+        fill: url(#lux-gradient); /* dégradé visible dans les lettres */
+      }
+    </style>
+  </defs>
+
+  <!-- Fond -->
+  <rect class="bg" x="0" y="0" width="660" height="120" rx="16" ry="16"/>
+
+  <!-- Texte centré : d'abord le bord, puis le remplissage -->
+  <text x="330" y="64" class="text-base text-stroke">QUBiT LëTZEBUERG</text>
+  <text x="330" y="64" class="text-base text-fill">QUBiT LëTZEBUERG</text>
+</svg>

@@ -1,0 +1,26 @@
+<!-- QUBiT LëTZEBUERG — logo centré, compact, fond noir -->
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="180" viewBox="0 0 820 180" role="img" aria-labelledby="title desc">
+  <title id="title">QUBiT LëTZEBUERG — logo centré compact</title>
+  <desc id="desc">Logo blanc sur fond noir, texte QUBiT LëTZEBUERG centré horizontalement et verticalement, style typographique fort.</desc>
+
+  <defs>
+    <style>
+      .bg { fill:#000000; }
+      .fg {
+        fill:#FFFFFF;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        font-weight: 800;
+        font-size: 68px;
+        letter-spacing: 2px;
+        text-anchor: middle;      /* centre horizontalement */
+        dominant-baseline: middle; /* centre verticalement */
+      }
+    </style>
+  </defs>
+
+  <!-- Fond noir -->
+  <rect class="bg" x="0" y="0" width="100%" height="100%"/>
+
+  <!-- Texte centré -->
+  <text class="fg" x="410" y="90">QUBiT LëTZEBUERG</text>
+</svg>
