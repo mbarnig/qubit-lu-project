@@ -16,11 +16,11 @@
 
     <!-- Styles -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+      <!-- @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');-->
       .card { fill:#0B0C10; }
       .label {
-        font-family:"Outfit",sans-serif;
-        font-weight:700;
+        <-- font-family:"Outfit",sans-serif; -->
+        font-family: "Outfit", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;        font-weight:700;
         letter-spacing:.5px;
         transform:skewX(-10deg);
         transform-origin:left center;
