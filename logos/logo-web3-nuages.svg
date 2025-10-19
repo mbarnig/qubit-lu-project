@@ -16,7 +16,6 @@
 
     <!-- Styles -->
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
       .card { fill: #0B0C10; }
       .label {
         font-family: "Outfit", sans-serif;
