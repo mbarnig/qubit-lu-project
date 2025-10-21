@@ -73,3 +73,22 @@ Tout le contenu (texte, fond, dégradé, etc.) se mettra à l’échelle automat
 
 💡 Résultat :
 Le logo aura une largeur de 280 px à l’écran, tout en restant vectoriel et parfaitement proportionné.
+
+## 🔵 Option 2 — poure garder la taille du texte web3.lu, mais en réduisant la largeur et la hauteur de la box !
+
+Parfait — on garde la taille du texte (font-size="64") et on rétrécit seulement la “box” (le rectangle de fond) en largeur et en hauteur.
+Voici une version où la box passe de 320×120 à 280×96, centrée dans le même canvas. Le texte ne change pas.
+
+```
+
+```
+Notes rapides
+
+Le canvas (320×120) reste identique → le texte garde exactement sa taille visuelle.
+
+Seule la box (rectangle de fond) est plus étroite et moins haute.
+
+Si tu veux la box encore plus serrée autour du texte, diminue encore width et height (ex. width="260" height="88") et ajuste x/y pour la centrer (par ex. x="30" y="16").
+
+Si tu veux réduire aussi le canvas (pour que l’SVG entier soit plus petit) sans toucher la taille du texte, on peut changer uniquement l’attribut width/height du rectangle tout en gardant le viewBox et les tailles de texte comme ici — ou recadrer le viewBox autour du contenu si nécessaire.
+
