@@ -222,13 +222,13 @@ Pour définir la taille appropriée de mon logo `web3.lu` sur la page d'accueil 
 
 ### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-blanc.svg)
 
-### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-classique.svg)
+### web3.lu : 122.7x46 pixels fond doré classique : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-classique.svg)
 
-### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-chaud.svg)
+### web3.lu : 122.7x46 pixels fond doré chaud : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-chaud.svg)
 
-### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-lumineux.svg)
+### web3.lu : 122.7x46 pixels fond doré lumineux : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-lumineux.svg)
 
-### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-metallique.svg)
+### web3.lu : 122.7x46 pixels fond doré métallique : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-metallique.svg)
 
 
 
