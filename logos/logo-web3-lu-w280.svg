@@ -7,10 +7,10 @@
     <!-- Dégradé luxembourgeois aligné sur le 3 -->
     <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"  stop-color="#EF3340"/>
-      <stop offset="48%" stop-color="#EF3340"/>
-      <stop offset="48%" stop-color="#FFFFFF"/>
-      <stop offset="70%" stop-color="#FFFFFF"/>
-      <stop offset="70%" stop-color="#00A3E0"/>
+      <stop offset="46% stop-color="#EF3340"/>
+      <stop offset="56%" stop-color="#FFFFFF"/>
+      <stop offset="74%" stop-color="#FFFFFF"/>
+      <stop offset="74%" stop-color="#00A3E0"/>
       <stop offset="100%" stop-color="#00A3E0"/>
     </linearGradient>
 
