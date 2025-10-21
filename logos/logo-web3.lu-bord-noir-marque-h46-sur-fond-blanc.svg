@@ -5,12 +5,12 @@
 <defs>
 <!-- Dégradé luxembourgeois -->
 <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
-<stop offset="0%" stop-color="#EF3340"/>
-<stop offset="43%" stop-color="#EF3340"/>
-<stop offset="43%" stop-color="#FFFFFF"/>
-<stop offset="61%" stop-color="#FFFFFF"/>
-<stop offset="61%" stop-color="#00A3E0"/>
-<stop offset="100%" stop-color="#00A3E0"/>
+<stop offset="0%" stop-color="#C73F4A"/>
+<stop offset="55%" stop-color="#C73F4A"/>
+<stop offset="55%" stop-color="#FFFFFF"/>
+<stop offset="68%" stop-color="#FFFFFF"/>
+<stop offset="68%" stop-color="#0089B6"/>
+<stop offset="100%" stop-color="#0089B6"/>
 </linearGradient>
 
 <style>
@@ -39,4 +39,5 @@
 <!-- Remplissage dégradé -->
 <text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
 </g>
+
 </svg>
