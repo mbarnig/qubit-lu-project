@@ -17,12 +17,12 @@ Le code pour afficher mon logo web3.lu suivant se présente comme suit :
   <defs>
     <!-- Dégradé luxembourgeois aligné sur le 3 -->
     <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#EF3340"/>
-      <stop offset="43%" stop-color="#EF3340"/>
+      <stop offset="0%"  stop-color="#C73F4A"/>
+      <stop offset="43%" stop-color="#C73F4A"/>
       <stop offset="43%" stop-color="#FFFFFF"/>
       <stop offset="61%" stop-color="#FFFFFF"/>
-      <stop offset="61%" stop-color="#00A3E0"/>
-      <stop offset="100%" stop-color="#00A3E0"/>
+      <stop offset="61%" stop-color="#0089B6"/>
+      <stop offset="100%" stop-color="#0089B6"/>
     </linearGradient>
 
     <!-- Styles -->
@@ -94,12 +94,12 @@ Voici une version où la box passe de 320×120 à 280×96, centrée dans le mêm
   <defs>
     <!-- Dégradé luxembourgeois -->
     <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%"  stop-color="#EF3340"/>
-      <stop offset="43%" stop-color="#EF3340"/>
-      <stop offset="43%" stop-color="#FFFFFF"/>
-      <stop offset="61%" stop-color="#FFFFFF"/>
-      <stop offset="61%" stop-color="#00A3E0"/>
-      <stop offset="100%" stop-color="#00A3E0"/>
+      <stop offset="0%"  stop-color="#C73F4A"/>
+      <stop offset="53%" stop-color="#C73F4A"/>
+      <stop offset="53%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#0089B6"/>
+      <stop offset="100%" stop-color="#0089B6"/>
     </linearGradient>
 
     <style>
