@@ -1,5 +1,7 @@
+![logo-web3.lu](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.svg)
 
-Le code pour afficher mon logo web3.lu suivant se présente
+Le code pour afficher mon logo web3.lu suivant se présente comme suit : 
+
 ```
 <!-- web3.lu — Logo texte italique (Outfit) avec nuage tricolore et carrés équilibrés -->
 <svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
