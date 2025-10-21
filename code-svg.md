@@ -53,5 +53,9 @@ Pour réduire la largeur totale du logo à 280 px, tu as deux possibilités selo
 
 C’est la méthode la plus propre et la plus sûre.
 Tu gardes le viewBox tel quel (il définit le repère interne),
-et tu changes seulement l’attribut width :
+et tu changes seulement l’attribut width :  
+
 `<svg width="280" height="105" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">`
+
+Le résultat se présente comme suit :
+![logo-web3.lu-w280](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3-lu-w280.svg)
