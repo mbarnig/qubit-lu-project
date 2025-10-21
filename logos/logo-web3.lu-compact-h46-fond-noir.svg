@@ -9,8 +9,8 @@
       <stop offset="0%"  stop-color="#C73F4A"/>
       <stop offset="55%" stop-color="#C73F4A"/>
       <stop offset="55%" stop-color="#FFFFFF"/>
-      <stop offset="67%" stop-color="#FFFFFF"/>
-      <stop offset="67%" stop-color="#0089B6"/>
+      <stop offset="68%" stop-color="#FFFFFF"/>
+      <stop offset="68%" stop-color="#0089B6"/>
       <stop offset="100%" stop-color="#0089B6"/>
     </linearGradient>
 
@@ -34,6 +34,7 @@
     <text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
   </g>
 </svg>
+
 
 
 
