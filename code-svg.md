@@ -197,3 +197,9 @@ Le texte garde la police Outfit en italique, le dégradé rouge-blanc-bleu, et u
 ⚫ Contour	Noir, stroke-width: 1.2, stroke-linejoin: round pour des bords doux
 🖋️ Police	Outfit, italique simulé (skewX(-10))
 🧭 Proportions	Texte inchangé, box réduite et centrée
+
+Le logo se présente comme suit :
+
+![logo-web3.lu-bord-noir-fond-blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-fond-blanc.svg)
+
+
