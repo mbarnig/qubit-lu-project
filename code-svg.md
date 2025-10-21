@@ -208,7 +208,7 @@ Pour ajuster le trait noir pour le bord plus marqué (1.6 au lieu de 1.2) on cha
 
 ## Affichage du logo web3.lu sur la page d'accueil de KI-Léierbud
 
-Pour définir la taille apparopriée de mon logo `web3.lu` sur la page d'accueil KI-Léierbud, ensemble avec les logos du ministère, de LetzAI et de Visual Online, j'ai analysé les tailles de ces trois logos :  
+Pour définir la taille appropriée de mon logo `web3.lu` sur la page d'accueil KI-Léierbud, ensemble avec les logos du ministère, de LetzAI et de Visual Online, j'ai analysé les tailles de ces trois logos :  
 
 ### Ministère : 179x47 pixels :    ![logo ministere](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-ministere.png)
 
@@ -217,6 +217,8 @@ Pour définir la taille apparopriée de mon logo `web3.lu` sur la page d'accueil
 ### Visual Online : 82x45 pixels : ![logo-vo](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-vo.png)
 
 ### web3.lu : 122.7x46 pixels : ![web3.lu fond noir](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact-h46-fond-noir.svg)
+
+### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact-h46-fond-blanc.svg)
 
 
 
