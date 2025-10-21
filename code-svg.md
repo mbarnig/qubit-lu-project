@@ -1,3 +1,9 @@
+Les couleurs du drapeau luxembourgeois sont :
+```
+rouge     blanc     bleu
+#C73F4A 	#FFFFFF 	#0089B6  
+```
+
 ![logo-web3.lu](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.svg)
 
 Le code pour afficher mon logo web3.lu suivant se présente comme suit : 
