@@ -25,7 +25,7 @@
   .stroke {
     fill:none;
     stroke:#000000;
-    stroke-width:1.0;
+    stroke-width:0;
     stroke-linejoin:round;
   }
 </style>
@@ -41,3 +41,4 @@
 </g>
 
 </svg>
+
