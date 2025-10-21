@@ -2,7 +2,7 @@
 
 Le code pour afficher mon logo web3.lu suivant se présente comme suit : 
 
-```
+```svg
 <!-- web3.lu — Logo texte italique (Outfit) avec nuage tricolore et carrés équilibrés -->
 <svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">web3.lu — logo texte final (Outfit italique, nuage tricolore corrigé)</title>
@@ -43,8 +43,8 @@ Le code pour afficher mon logo web3.lu suivant se présente comme suit :
     <text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
   </g>
 </svg>
-
 ```
+
 J'ai demandé à ChatGPT-5 comment réduire sa largeur. Voici sa réponse : 
 
 Pour réduire la largeur totale du logo à 280 px, tu as deux possibilités selon ce que tu veux faire :
@@ -79,9 +79,50 @@ Le logo aura une largeur de 280 px à l’écran, tout en restant vectoriel et p
 Parfait — on garde la taille du texte (font-size="64") et on rétrécit seulement la “box” (le rectangle de fond) en largeur et en hauteur.
 Voici une version où la box passe de 320×120 à 280×96, centrée dans le même canvas. Le texte ne change pas.
 
+```svg
+<!-- web3.lu — texte 64px conservé, box réduite à 280×96 -->
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">web3.lu — texte conservé, box réduite</title>
+  <desc id="desc">Texte "web3.lu" en italique (Outfit) avec box plus petite autour, sans changer la taille du texte.</desc>
+
+  <defs>
+    <!-- Dégradé luxembourgeois -->
+    <linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#EF3340"/>
+      <stop offset="43%" stop-color="#EF3340"/>
+      <stop offset="43%" stop-color="#FFFFFF"/>
+      <stop offset="61%" stop-color="#FFFFFF"/>
+      <stop offset="61%" stop-color="#00A3E0"/>
+      <stop offset="100%" stop-color="#00A3E0"/>
+    </linearGradient>
+
+    <style>
+      .card { fill:#0B0C10; }
+      .label{
+        font-family:"Outfit",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+        font-weight:700;
+        letter-spacing:.5px;
+        transform:skewX(-10deg);
+        transform-origin:left center;
+      }
+    </style>
+  </defs>
+
+  <!-- Box réduite : 280×96, centrée (x=20, y=12), coins 16 -->
+  <rect x="20" y="12" width="280" height="96" rx="16" class="card"/>
+
+  <!-- Texte conservé (même taille) -->
+  <g transform="translate(32,78)">
+    <text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
+  </g>
+</svg>
 ```
 
-```
+Voici le résultat :
+
+
+![logo-web3.lu-compact](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact.svg)
+
 Notes rapides
 
 Le canvas (320×120) reste identique → le texte garde exactement sa taille visuelle.
