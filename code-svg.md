@@ -242,4 +242,4 @@ Pour définir la taille appropriée de mon logo `web3.lu` sur la page d'accueil 
 
 ### web3.lu : 122.7x46 pixels fond platine hightech : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-platine-hightech.svg)
 
-### web3.lu : 122.7x46 pixels fond platine hightech : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-gris-fonce.svg)
+### web3.lu : 122.7x46 pixels fond gris foncé : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-gris-fonce.svg)
