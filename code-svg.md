@@ -206,4 +206,6 @@ Pour ajuster le trait noir pour le bord plus marqué (1.6 au lieu de 1.2) on cha
 
 ![logo-web3.lu-bord-noir-marque-sur-fond-blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-sur-fond-blanc.svg)
 
+Affichage 
+
 
