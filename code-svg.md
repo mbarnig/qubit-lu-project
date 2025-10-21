@@ -133,3 +133,67 @@ Si tu veux la box encore plus serrée autour du texte, diminue encore width et h
 
 Si tu veux réduire aussi le canvas (pour que l’SVG entier soit plus petit) sans toucher la taille du texte, on peut changer uniquement l’attribut width/height du rectangle tout en gardant le viewBox et les tailles de texte comme ici — ou recadrer le viewBox autour du contenu si nécessaire.
 
+## Lettres avec bord noir sur fond blanc
+
+Moi : prière de modifier le logo en ajoutant un bord noir autour des caractères et de l'afficher sur fond blanc !
+
+ChatGPT-5 : Excellent 👌 — tu veux donc :
+
+✅ Un bord noir fin autour de chaque caractère (contour visible mais élégant),
+
+✅ Un fond blanc au lieu du noir.
+
+Voici le SVG mis à jour et directement affiché ci-dessous 👇
+Le texte garde la police Outfit en italique, le dégradé rouge-blanc-bleu, et un contour noir très fin (stroke-width="1.2").
+
+```svg
+<svg width="320" height="120" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">web3.lu — logo italique avec bord noir, fond blanc</title>
+<desc id="desc">Logo "web3.lu" italique, police Outfit, dégradé rouge-blanc-bleu, bord noir fin et fond blanc arrondi.</desc>
+
+<defs>
+<!-- Dégradé luxembourgeois -->
+<linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#EF3340"/>
+<stop offset="43%" stop-color="#EF3340"/>
+<stop offset="43%" stop-color="#FFFFFF"/>
+<stop offset="61%" stop-color="#FFFFFF"/>
+<stop offset="61%" stop-color="#00A3E0"/>
+<stop offset="100%" stop-color="#00A3E0"/>
+</linearGradient>
+
+<style>
+  .card { fill:#FFFFFF; } /* fond blanc */
+  .label {
+    font-family:"Outfit",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight:700;
+    letter-spacing:0.5px;
+    transform:skewX(-10deg);
+    transform-origin:left center;
+  }
+  .stroke {
+    fill:none;
+    stroke:#000000;
+    stroke-width:1.2;
+    stroke-linejoin:round;
+  }
+</style>
+
+</defs>
+<!-- Box blanche réduite --> <rect x="20" y="12" width="280" height="96" rx="16" class="card"/>
+<!-- Texte avec bord noir + remplissage dégradé -->
+<g transform="translate(32,78)">
+<!-- Bord noir -->
+<text x="0" y="0" class="label stroke" font-size="64">web3.lu</text>
+<!-- Remplissage dégradé -->
+<text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
+</g>
+</svg>
+```
+### ✨ Détails techniques
+Élément	Description
+⚪ Fond	Blanc pur #FFFFFF, rectangle 280 × 96 (coins arrondis 16 px)
+🌈 Texte	Dégradé vertical rouge → blanc → bleu
+⚫ Contour	Noir, stroke-width: 1.2, stroke-linejoin: round pour des bords doux
+🖋️ Police	Outfit, italique simulé (skewX(-10))
+🧭 Proportions	Texte inchangé, box réduite et centrée
