@@ -45,3 +45,13 @@ Le code pour afficher mon logo web3.lu suivant se présente comme suit :
 </svg>
 
 ```
+J'ai demandé à ChatGPT-5 comment réduire sa largeur. Voici sa réponse : 
+
+Pour réduire la largeur totale du logo à 280 px, tu as deux possibilités selon ce que tu veux faire :
+
+🟢 Option 1 — Affichage à 280 px (sans modifier les proportions internes)
+
+C’est la méthode la plus propre et la plus sûre.
+Tu gardes le viewBox tel quel (il définit le repère interne),
+et tu changes seulement l’attribut width :
+`<svg width="280" height="105" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">`
