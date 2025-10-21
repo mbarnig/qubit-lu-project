@@ -57,5 +57,7 @@ et tu changes seulement l’attribut width :
 
 `<svg width="280" height="105" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">`
 
-Le résultat se présente comme suit :
+Le résultat se présente comme suit : 
+
+
 ![logo-web3.lu-w280](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3-lu-w280.svg)
