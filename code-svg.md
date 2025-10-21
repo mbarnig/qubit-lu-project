@@ -202,4 +202,7 @@ Le logo se présente comme suit :
 
 ![logo-web3.lu-bord-noir-fond-blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-fond-blanc.svg)
 
+Pour ajuster le trait noir pour le bord plus marqué (1.6 au lieu de 1.2) on change la ligne `stroke-width:1.6;`.
+
+
 
