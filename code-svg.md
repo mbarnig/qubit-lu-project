@@ -216,4 +216,7 @@ Pour définir la taille apparopriée de mon logo `web3.lu` sur la page d'accueil
 
 ### Visual Online : 82x45 pixels : ![logo-vo](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-vo.png)
 
+### web3.lu : 122.7x46 pixels : ![web3.lu fond noir](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact-h46-fond-noir.svg)
+
+
 
