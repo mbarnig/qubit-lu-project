@@ -49,7 +49,7 @@ J'ai demandé à ChatGPT-5 comment réduire sa largeur. Voici sa réponse :
 
 Pour réduire la largeur totale du logo à 280 px, tu as deux possibilités selon ce que tu veux faire :
 
-🟢 Option 1 — Affichage à 280 px (sans modifier les proportions internes)
+## 🟢 Option 1 — Affichage à 280 px (sans modifier les proportions internes)
 
 C’est la méthode la plus propre et la plus sûre.
 Tu gardes le viewBox tel quel (il définit le repère interne),
@@ -61,3 +61,15 @@ Le résultat se présente comme suit :
 
 
 ![logo-web3.lu-w280](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3-lu-w280.svg)
+
+👉 Pourquoi ?
+
+Tu divises la largeur par 320/280 = 0.875 → 87.5 % de la taille originale.
+
+Si tu veux garder les mêmes proportions, tu peux aussi ajuster la height proportionnellement :
+120 × 0.875 = 105.
+
+Tout le contenu (texte, fond, dégradé, etc.) se mettra à l’échelle automatiquement grâce au viewBox.
+
+💡 Résultat :
+Le logo aura une largeur de 280 px à l’écran, tout en restant vectoriel et parfaitement proportionné.
