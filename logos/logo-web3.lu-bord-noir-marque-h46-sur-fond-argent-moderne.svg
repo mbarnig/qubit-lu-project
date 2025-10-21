@@ -14,7 +14,7 @@
 </linearGradient>
 
 <style>
-  .card { fill:#B0C4D;}
+  .card { fill:#B0C4DE;}
   .label {
     font-family:"Outfit",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight:700;
