@@ -206,6 +206,8 @@ Pour ajuster le trait noir pour le bord plus marqué (1.6 au lieu de 1.2) on cha
 
 ![logo-web3.lu-bord-noir-marque-sur-fond-blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-sur-fond-blanc.svg)
 
+Pour changer le fond on modifie la ligne suivante : `.card { fill:#0B0C10; }` 
+
 ## Affichage du logo web3.lu sur la page d'accueil de KI-Léierbud
 
 Pour définir la taille appropriée de mon logo `web3.lu` sur la page d'accueil KI-Léierbud, ensemble avec les logos du ministère, de LetzAI et de Visual Online, j'ai analysé les tailles de ces trois logos :  
@@ -219,6 +221,16 @@ Pour définir la taille appropriée de mon logo `web3.lu` sur la page d'accueil 
 ### web3.lu : 122.7x46 pixels : ![web3.lu fond noir](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact-h46-fond-noir.svg)
 
 ### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-blanc.svg)
+
+### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-classique.svg)
+
+### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-chaud.svg)
+
+### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-lumineux.svg)
+
+### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-dore-metallique.svg)
+
+
 
 
 
