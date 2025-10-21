@@ -1,0 +1,42 @@
+<svg width="122.7" height="46" viewBox="0 0 320 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">web3.lu — logo italique avec bord noir, fond blanc</title>
+<desc id="desc">Logo "web3.lu" italique, police Outfit, dégradé rouge-blanc-bleu, bord noir fin et fond blanc arrondi.</desc>
+
+<defs>
+<!-- Dégradé luxembourgeois -->
+<linearGradient id="lux-flag" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0%" stop-color="#EF3340"/>
+<stop offset="43%" stop-color="#EF3340"/>
+<stop offset="43%" stop-color="#FFFFFF"/>
+<stop offset="61%" stop-color="#FFFFFF"/>
+<stop offset="61%" stop-color="#00A3E0"/>
+<stop offset="100%" stop-color="#00A3E0"/>
+</linearGradient>
+
+<style>
+  .card { fill:#C9A227; }
+  .label {
+    font-family:"Outfit",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight:700;
+    letter-spacing:0.5px;
+    transform:skewX(-10deg);
+    transform-origin:left center;
+  }
+  .stroke {
+    fill:none;
+    stroke:#000000;
+    stroke-width:2.0;
+    stroke-linejoin:round;
+  }
+</style>
+
+</defs>
+<!-- Box blanche réduite --> <rect x="20" y="12" width="280" height="96" rx="16" class="card"/>
+<!-- Texte avec bord noir + remplissage dégradé -->
+<g transform="translate(32,78)">
+<!-- Bord noir -->
+<text x="0" y="0" class="label stroke" font-size="64">web3.lu</text>
+<!-- Remplissage dégradé -->
+<text x="0" y="0" class="label" font-size="64" fill="url(#lux-flag)">web3.lu</text>
+</g>
+</svg>
