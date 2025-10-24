@@ -226,7 +226,7 @@ Pour définir la taille appropriée de mon logo `web3.lu` sur la page d'accueil 
 
 ### web3.lu : 122.7x46 pixels : ![web3.lu fond noir](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact-h46-fond-noir.svg)
 
-### web3.lu : 122.7x46 pixels : ![web3.lu fond noir](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact-h46-fond-noir.svg)
+### web3.lu new : 122.7x46 pixels : ![web3.lu fond noir](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-compact.svg)
 
 ### web3.lu : 122.7x46 pixels : ![web3.lu fond blanc](https://github.com/mbarnig/qubit-lu-project/blob/main/logos/logo-web3.lu-bord-noir-marque-h46-sur-fond-blanc.svg)
 
